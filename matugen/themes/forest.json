@@ -1,18 +1,19 @@
 {
+  "wallpapers": "Pacific-Northwest.png",
   "hyprland":{
     "accent_hex": "#469c46",
     "background_hex": "#143c14"
   },
   "waybar":{
     "font":{
-      "color": "#ffffff",
+      "color_hex": "#ffffff",
       "size": "14px",
       "family": "FreeMono",
       "weight": "bold"
     },
     "colors":{
-      "background": "#143c14",
-      "foreground": "#2d552d"
+      "background_hex": "#143c14",
+      "foreground_hex": "#2d552d"
     }
   }
 }

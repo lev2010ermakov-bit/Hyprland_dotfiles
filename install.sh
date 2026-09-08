@@ -15,6 +15,7 @@ rm -rf ~/.config/waybar/*
 rm -rf ~/.config/cava/*
 rm -rf ~/.config/kitty/*
 rm -rf ~/.config/wallpapers/*
+rm -rf ~/.config/matugen/*
 
 echo -e "coping local configs"
 cp -r ./hypr/*       ~/.config/hypr
@@ -22,5 +23,5 @@ cp -r ./waybar/*     ~/.config/waybar
 cp -r ./cava/*       ~/.config/cava
 cp -r ./kitty/*      ~/.config/kitty
 cp -r ./wallpapers/* ~/.local/share/wallpapers
-
+cp -r ./matugen/*    ~/.config/matugen
 echo -e "done"

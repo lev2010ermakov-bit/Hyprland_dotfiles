@@ -1,0 +1,19 @@
+{
+  "wallpapers": "Autumn-River.png",
+  "hyprland":{
+    "accent_hex": "#d19741",
+    "background_hex": "#713701"
+  },
+  "waybar":{
+    "font":{
+      "color_hex": "#ffffff",
+      "size": "14px",
+      "family": "FreeMono",
+      "weight": "normal"
+    },
+    "colors":{
+      "background_hex": "#ad7726",
+      "foreground_hex": "#dbb172"
+    }
+  }
+}
