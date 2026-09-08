@@ -14,6 +14,7 @@
     "colors":{
       "background_hex": "#143c14",
       "foreground_hex": "#2d552d"
-    }
+    },
+    "cava_path": "~/.config/cava/waybar_cava"
   }
 }

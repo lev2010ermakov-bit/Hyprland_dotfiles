@@ -44,7 +44,7 @@
     //     }
     // },
     "cava": {
-        "cava_config": "/home/brandon/.config/cava/waybar_cava",
+        "cava_config": "$HOME/.config/cava/waybar_cava",
         "input_delay": 2,
         "actions": {
                    "on-click-right": "mode"

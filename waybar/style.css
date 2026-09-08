@@ -3,7 +3,7 @@
   font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
   font-family: FreeMono;
   font-size: 14px;
-  font-weight: bold; }
+  font-weight: normal; }
 
 window#waybar {
   background-color: transparent;
@@ -95,7 +95,7 @@ button {
 .modules-center,
 .modules-left,
 .modules-right {
-  background: #143c14;
+  background: #ad7726;
   padding: 2px 15px;
   border-radius: 5px; }
 
