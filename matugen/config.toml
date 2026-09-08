@@ -1,0 +1,15 @@
+[config]
+expr_prefix  = "{{"
+expr_postfix = "}}"
+
+import_json_files = ["./themes/forest.json"]
+
+[templates.hyprland]
+input_path = './templates/hypr/colors.lua'
+output_path = '~/.config/hypr/colors.lua'
+post_hook = 'hyprctl reload'
+
+[templates.waybar]
+input_path = './templates/waybar/colors.css'
+output_path = '~/.config/waybar/colors.css'
+post_hook = 'pkill waybar && waybar &>/dev/null &'

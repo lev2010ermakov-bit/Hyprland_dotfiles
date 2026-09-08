@@ -1,0 +1,3 @@
+@define-color font-color {{waybar.font.color.default.hex}};
+@define-color bg         {{waybar.colors.background.default.hex}};
+@define-color fg         {{waybar.colors.foreground.default.hex}};

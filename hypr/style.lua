@@ -10,8 +10,8 @@ hl.config({
     border_size = 2,
 
     col = {
-      active_border   = { colors = {main_color} },
-      inactive_border = { colors = {addictional_color} }
+      active_border   = { colors = {accent_color} },
+      inactive_border = { colors = {background_color} }
     },
     
     resize_on_border = true,
