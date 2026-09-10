@@ -10,7 +10,7 @@ post_hook = 'hyprctl reload'
 [templates.hyprland_wallpapers]
 input_path = './templates/hypr/autostart.lua'
 output_path = '~/.config/hypr/autostart.lua'
-post_hook = 'pkill mpvpaper && mpvpaper -o "loop panscan=1" ALL "~/.local/share/wallpapers/{{wallpapers}}" &>/dev/null &'
+post_hook = 'pkill mpvpaper && mpvpaper -o "loop panscan=1 hwdec=auto-safe vo=gpu" ALL "~/.local/share/wallpapers/{{wallpapers}}" &>/dev/null &'
 
 [templates.waybar_style]
 input_path = './templates/waybar/colors.scss'
