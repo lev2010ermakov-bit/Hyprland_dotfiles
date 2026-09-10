@@ -1,0 +1,21 @@
+{
+  "theme_path": "~/.config/matugen/themes/mountain-sunset.json",
+  "wallpapers": "autumn-mountain-sunset.mp4",
+  "hyprland":{
+    "accent_hex": "#bd5f13",
+    "background_hex": "#693816"
+  },
+  "waybar":{
+    "font":{
+      "color_hex": "#ffffff",
+      "size": "14px",
+      "family": "FreeMono",
+      "weight": "bold"
+    },
+    "colors":{
+      "background_hex": "#bd5f13",
+      "foreground_hex": "#7392f0"
+    },
+    "cava_path": "~/.config/cava/waybar_cava"
+  }
+}

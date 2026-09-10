@@ -8,9 +8,15 @@
     "margin-top": 5, // GapBetweenScreenCeiling
     "margin-right": 5,
     "margin-left": 5,
+    "reload_style_on_change":true,
+    "include":[
+        "~/.config/waybar/weather.jsonc"
+    ],
     // Choose the order of the modules
     "modules-left": [
-        "pulseaudio"
+        "pulseaudio",
+        "network",
+        "custom/weather"
     ],
     "modules-center": [
         "cava",
@@ -18,7 +24,6 @@
         "cava"
     ],
     "modules-right": [
-        "network",
         "power-profiles-daemon",
         "cpu",
         "memory",

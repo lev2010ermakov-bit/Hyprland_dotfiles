@@ -4,3 +4,4 @@ echo
 read -p "Enter the exact name: " choosed_theme 
 
 matugen color hex "#ffffff" --import-json ~/.config/matugen/themes/$choosed_theme
+pkill waybar && waybar &>/dev/null &

@@ -1,0 +1,8 @@
+{
+  "custom/weather":{
+    "format": "{}",
+    "return-type": "json",
+    "interval": 5,
+    "exec": "~/.config/waybar/scripts/weather"
+  }
+}

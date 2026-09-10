@@ -15,7 +15,7 @@ post_hook = 'pkill mpvpaper && mpvpaper -o "loop panscan=1" ALL "~/.local/share/
 [templates.waybar_style]
 input_path = './templates/waybar/colors.scss'
 output_path = '~/.config/waybar/colors.scss'
-post_hook = 'sassc ~/.config/waybar/style.scss ~/.config/waybar/style.css && pkill waybar && waybar &>/dev/null &'
+post_hook = 'sassc ~/.config/waybar/style.scss ~/.config/waybar/style.css'
 
 [templates.waybar_cava]
 input_path = './templates/cava/waybar_cava'

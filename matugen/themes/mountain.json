@@ -1,0 +1,21 @@
+{
+  "theme_path": "~/.config/matugen/themes/mountain.json",
+  "wallpapers": "gray-mountain.jpg",
+  "hyprland":{
+    "accent_hex": "#cccccc",
+    "background_hex": "#2a2a2a"
+  },
+  "waybar":{
+    "font":{
+      "color_hex": "#ffffff",
+      "size": "14px",
+      "family": "FreeMono",
+      "weight": "bold"
+    },
+    "colors":{
+      "background_hex": "#232323",
+      "foreground_hex": "#cccccc"
+    },
+    "cava_path": "~/.config/cava/waybar_cava"
+  }
+}

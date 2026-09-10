@@ -1,2 +1,2 @@
-accent_color = "#d19741"
-background_color = "#713701"
+accent_color = "#bd5f13"
+background_color = "#693816"

@@ -1,4 +1,5 @@
 {
+  "theme_path": "~/.config/matugen/themes/forest.json",
   "wallpapers": "Pacific-Northwest.png",
   "hyprland":{
     "accent_hex": "#469c46",
@@ -8,8 +9,8 @@
     "font":{
       "color_hex": "#ffffff",
       "size": "14px",
-      "family": "FreeMono",
-      "weight": "bold"
+      "family": "HachiMaruPop",
+      "weight": "normal"
     },
     "colors":{
       "background_hex": "#143c14",

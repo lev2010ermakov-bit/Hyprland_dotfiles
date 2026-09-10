@@ -1,4 +1,5 @@
 {
+  "theme_path": "~/.config/matugen/themes/autumn.json",
   "wallpapers": "Autumn-River.png",
   "hyprland":{
     "accent_hex": "#d19741",
