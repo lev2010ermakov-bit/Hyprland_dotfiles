@@ -24,4 +24,7 @@ cp -r ./cava/*       ~/.config/cava
 cp -r ./kitty/*      ~/.config/kitty
 cp -r ./wallpapers/* ~/.local/share/wallpapers
 cp -r ./matugen/*    ~/.config/matugen
+sudo cp -r ./fonts/*      /usr/local/share/fonts
+fc-cache -fv
+
 echo -e "done"
